@@ -1,0 +1,224 @@
+#news {
+   padding: 60px 0 10px 0;
+   width: 100%;
+}
+div.flex {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.news-header {
+   font-size: 35px;
+   font-weight: 700;
+}
+.news-subheader {
+   font-size: 13px;
+   font-style: italic;
+   line-height: 4em;
+   font-weight: 300;
+}
+
+/* SIDE NEWS */
+div.card {
+   margin: 0 0 10px 0;
+}
+div.col-md-4 {
+   height: 138px;
+}
+div.col-md-4 img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.card-title a {
+   font-size: 16px;
+   font-weight: 600;
+   text-decoration: none;
+   color: rgb(217, 65, 72);
+}
+.card-text {
+   font-size: 14px;
+   line-height: 18px;
+}
+
+/* !ACCORDION */
+.accordion-body ul li {
+   line-height: 40px;
+}
+.accordion-button.collapsed {
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+}
+.accordion-button:not(.collapsed) {
+   color: white;
+   background-color: rgb(24, 90, 45);
+   font-size: 18px;
+   font-weight: 600;
+   background-image: none;
+}
+.accordion-button:focus {
+   box-shadow: none;
+   border-top: black;
+   border-bottom: black;
+}
+.accordion.accordion-flush {
+   background-color: rgb(24, 115, 57);
+   border-radius: 10px;
+   color: white;
+   font-size: 14px;
+   width: 300px;
+   margin: 20px 0 0 0;
+}
+/* !sign in */
+.signin_widget{
+   background-color: rgb(247, 247, 247);
+   margin-bottom: 20px;
+   padding: 25px 0;
+   font-size: 13px;
+   border: 1px solid rgb(222, 222, 222);
+}
+.signin_content{
+   margin: 0 15px;
+}
+.form-floating>.form-control, .form-floating>.form-select {
+   height: calc(2.5rem + 1px);
+   padding: 1rem .75rem;
+}
+.signin_widget .form-control {
+   border: 1px solid #a9a9a9;
+   text-transform: none;
+   font-weight: normal;
+   font-size: 15px;
+}
+
+@media (max-width: 1199px) {
+   div.flex {
+      display: flex;
+      justify-content: center;
+   }
+   .news-header {
+      font-size: 30px;
+      font-weight: 700;
+   }
+   .news-subheader {
+      font-size: 13px;
+      font-style: italic;
+      line-height: 3em;
+      font-weight: 300;
+   }
+   .accordion-body ul li {
+      line-height: 30px;
+   }
+   .accordion.accordion-flush{
+      font-size: 13px;
+   }
+   .accordion-button.collapsed {
+      font-size: 15px;
+      font-weight: 600;
+   }
+   .signin_widget{
+      max-width: 100%;
+      margin: 10px auto;
+      width: 75%;
+   } 
+}
+/* @media (max-width: 1024px) {
+   div.flex {
+      display: flex;
+      
+   }
+} */
+@media (max-width: 782px) {
+   .news-header {
+      font-size: 28px;
+      font-weight: 700;
+   }
+   .news-subheader {
+      font-size: 13px;
+      font-style: italic;
+      line-height: 1.3em;
+      font-weight: 300;
+   }
+}
+@media (max-width: 766px) {
+   .card .row .col-md-8{
+      display: none;
+   }
+}
+@media (max-width: 554px) {
+   .flex .col-5{
+      width: 90%;
+   }
+
+}
+
+/* news.php */
+#main-list{
+   text-align: center;
+}
+div.nws-div {
+   border-bottom: 1px solid rgb(216, 216, 216);
+   margin-bottom: 30px;
+   padding-bottom: 30px;
+}
+hr.hr {
+   color: transparent;
+}
+a.nws-title {
+   color: rgb(217, 65, 72);
+   text-decoration: none;
+   line-height: 2em;
+   font-size: 30px;
+   font-weight: 600;
+}
+span.author-name {
+   line-height: 2em;
+   font-style: italic;
+}
+p.nws-desc {
+   padding: 10px 0 20px 0;
+}
+a.nws-btn {
+   padding: 10px;
+   background-color: rgb(24, 115, 57);
+   color: white;
+   text-decoration: none;
+   border-radius: 7px;
+}.nws-div .news-image{
+   width: 100%;
+   height: 100%;
+   width: 600px;
+   max-height: 400px;
+}
+/* FULL NEWS */
+.news-content{
+   padding: 20px 0 50px 0;
+   font: normal;
+}
+
+.full-content{
+   line-height: 1.4em;
+   white-space: pre-wrap;
+}
+.news-content-img{
+   width: 600px;
+   margin: 0 auto;
+}
+.news-content i{
+   font-style: italic;
+}
+.news-content ul{
+   list-style: disc;
+}
+.news-content ol{
+   list-style-type: decimal;
+}
+.news-content ol, .news-content ul{
+   padding: 2rem;
+}
+@media (max-width: 375px) {
+   .full-content{
+      font-size: 14px;
+   }
+}

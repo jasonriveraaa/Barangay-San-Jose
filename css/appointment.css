@@ -1,0 +1,162 @@
+.appointment-body{
+    background-color: white;
+    min-height: 80vh;
+}
+.appointment-header{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 2em;
+}
+.instruction-list{
+    line-height: 1.3em;
+    list-style-type: decimal;
+    margin: 0 0 0 30px;
+}
+
+.appointment-col{
+    background-color: #969696;
+    text-align: center;
+    margin: 20px 14px;
+    border-radius: 10px;
+    
+}
+.appointment-box{
+    font-size: 1.3em;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.appointment-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.appointment-link:hover{
+    text-decoration: underline;
+    color: rgb(232, 232, 232);
+}
+.span-appointment{
+    display: block;
+    margin-top: 20px;
+}
+.required{
+    color: red;
+}
+.form-control{
+    border:1px solid #a9a9a9;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.form-control:focus {
+    border:2px solid #60ac58;
+    box-shadow: none;
+}
+
+/** INDIGENCY CERT */
+.indigency-content{
+    background-color: white;
+    padding: 0 0 10px 20px;
+}
+.indigency-content label{
+    font-weight: 600;
+    font-size: 13px;
+}
+.indigency-content .form-select{
+    font-size: 14px;
+    font-weight: 600;
+    border:1px solid #a9a9a9;
+
+}
+.form-select:focus{
+    border:2px solid #60ac58;
+    box-shadow: none;
+}
+.indigency-guide{
+    padding: 20px 0 10px 0;
+    margin:0 0 30px 0;
+    width: 80%;
+    border-bottom: 2px solid rgb(199, 65, 65);
+}
+.indigency-guide h1{
+    font-size: 2.1em;
+    font-weight: 600;
+}
+.security{
+    font-weight: 600;
+}
+
+/** req_success.php */
+.req-div{
+    background-color: rgb(83, 145, 83);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+.req-content{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    max-width: 700px;
+}
+.req-header{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 2em;
+}
+.req-text{
+    line-height: 1.3em;
+}
+.req-date{
+    font-weight: bold;
+}
+.return-button{
+    float: right;
+    margin-top: 40px;
+}
+.return-home{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(167, 158, 158);
+    padding: 7px;
+    border-radius: 8px;
+}
+.return-home:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(128, 128, 128);
+
+}
+@media(max-width: 587px){
+    .req-header{
+        font-size: 30px;
+    }
+    .req-text{
+        line-height: 1.3em;
+        font-size: 15px;
+    }
+}
+@media(max-width: 513px){
+    .req-header{
+        font-size: 30px;
+        line-height: 1em;
+        margin-bottom: 10px;
+    }
+    .req-text{
+        line-height: 1.3em;
+        font-size: 15px;
+    }
+}
+@media(max-width: 320px){
+    .req-header{
+        font-size: 25px;
+        line-height: 1em;
+        margin-bottom: 10px;
+    }
+    .req-text{
+        line-height: 1.3em;
+        font-size: 15px;
+    }
+}

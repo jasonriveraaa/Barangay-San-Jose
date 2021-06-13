@@ -1,0 +1,25 @@
+section.sub-header {
+   padding: 74px 0;
+   background-image:  url('../img/breadcrumb-bg.png');
+   background-repeat: round;
+}
+.sub-header h2 {
+   font-size: 2.5em;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.breadcrumb-item {
+   font-size: 14px;
+}
+
+.breadcrumb-item a {
+   text-decoration: none;
+   color: White;
+}
+li.breadcrumb-item.active{
+   color: rgb(174, 174, 174);
+}
+
+.sub-header div h2{
+   color: white;
+}

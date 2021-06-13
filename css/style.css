@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   /* font: inherit; */
+   vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+   display: block;
+}
+body {
+   line-height: 1;
+}
+blockquote,
+q {
+   quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+   background-image: url('../img/white.jpg');
+}
+
+/* NAVBAR */
+.logo {
+   text-align: center;
+   padding: 10px 0;
+   /* border-bottom: 1px solid rgb(232, 232, 232); */
+   background-color: rgb(247, 247, 247) ;
+}
+.img-logo {
+   width: 110px;
+   height: 95px;
+}
+.navbar.navbar-expand-lg{
+   background-color: rgb(247, 247, 247);
+   padding: 20px 0;
+}
+.navbar.navbar-expand-lg.nav-2{
+   padding: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+   padding: 0 40px 0 0;
+   font-size: 14px;
+   font-weight: 600;
+}
+.nav-link {
+   display: inline-block;
+   color: #000;
+   text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+   color: rgb(217, 65, 72);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+   color: rgb(24, 115, 57);
+}
+.dropdown-item.active, .dropdown-item:active{
+   background-color: #418635;
+}
+.sticky-top.scrolled{
+   background-color: rgb(244, 177, 21);
+   transition: background-color 200ms linear;
+}
+.sticky-top.scrolled .nav-link {
+   color: white;
+}
+.nav-2.sticky-top.scrolled{
+   padding: 0;
+}
+@media(max-width: 991px){
+   .navbar.navbar-expand-lg{
+      line-height: 1.3;
+      font-size: 20px;
+      padding: 10px 0;
+   }
+   .navbar-nav{
+      margin-top: 10px;
+   }
+   .navbar-expand-lg .navbar-nav .nav-link{
+      padding: 0;
+      font-size: 14px;
+   }
+   .container{
+      max-width: 990px;
+   }
+}
+
+/* CAROUSEL */
+.carousel-item {
+   height: 430px;
+}
+.carousel-item img{
+   width: 100%;
+   height: 100%;
+}
+/* width */
+::-webkit-scrollbar {
+   width: 10px;
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: #f1f1f1; 
+ }
+  
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: #888; 
+ }
+ 
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+   background: #555; 
+ }
+
+ /* TIME AND DATE */
+
+ div.date-time{
+   padding: 10px 0;
+   background-image: linear-gradient(
+      to right,
+      rgb(212, 32, 39),
+      rgb(24, 115, 57)
+   );
+   font-size: 14px;
+ }
+ .adminbtn{
+   /* float: right;
+   position: relative;
+   top: -6px; */
+   padding: .01rem .99rem;
+   margin: 0 10px;
+ }
+ #txt{
+    padding-left: 30px;
+    color: white;
+ }
+
+ #button {
+   display: inline-block;
+   background-color: #f4b115;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   border-radius: 4px;
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   transition: background-color .3s, 
+     opacity .5s, visibility .5s;
+   opacity: 0;
+   visibility: hidden;
+   z-index: 1000;
+ }
+
+ #button:hover {
+   cursor: pointer;
+   background-color: #333;
+ }
+ #button:active {
+   background-color: #555;
+ }
+ #button.show {
+   opacity: 1;
+   visibility: visible;
+ }
+ .fa-chevron-up{
+    font-size: 30px;
+    margin: 10px 0 0 0;
+    color: rgb(242, 241, 241);
+ }
+ 

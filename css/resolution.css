@@ -1,0 +1,35 @@
+.resolution-header{
+    line-height: 2;
+    font-size: 30px;
+    font-weight: 600;
+}
+a.resolution-pdf{
+    color: black;
+    text-decoration: none;
+}
+a.resolution-pdf:hover{
+    text-decoration: underline;
+}
+
+th{
+    font-weight: bold;
+}
+table{
+    font-size: 15px;
+}
+
+/* !PAGINATION */
+.page-link{
+    color: black;
+}
+.pagination{
+    margin: 30px 0;
+}
+.page-item.active .page-link{
+    background-color: forestgreen;
+    border-color: forestgreen;
+}
+.page-item .page-link:hover{
+    background-color: rgb(122, 167, 122);
+    color: white;
+}
